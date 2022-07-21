@@ -6,21 +6,21 @@
 </head>
 <body>
 
-<?php
-$hostName = "localhost";
-$userName = "root";
-$password = "";
-$databaseName = "services_clone";
+<!-- <//?php
+// $hostName = "localhost";
+// $userName = "root";
+// $password = "";
+// $databaseName = "services_clone";
 
- $conn = new mysqli($hostName, $userName, $password, $databaseName);
+//  $conn = new mysqli($hostName, $userName, $password, $databaseName);
 // Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+// if ($conn->connect_error) {
+//   die("Connection failed: " . $conn->connect_error);
+// }
 
 // echo "Connected successfully";
 
-?> 
+?>  -->
 
 <?php
 //Get Heroku ClearDB connection information
