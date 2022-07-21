@@ -1,0 +1,629 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My code */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    background-color: hsl(208, 73%, 31%);
+    font-size: 16px;   
+    line-height: 30px;
+}
+
+
+/* body::-webkit-scrollbar {
+    width: 20px;              /* width of the entire scrollbar */
+   */
+  
+  /* body::-webkit-scrollbar-thumb {
+    border-radius: 5px;       /* roundness of the scroll thumb */
+  */
+
+h1, h2, h3, h4{
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 300;
+}
+
+
+/*Hamburger Nav*/
+#toggle{
+    display: none;
+}
+
+.hamburger{
+    background-color:hsl(0, 100%, 100%, 90%);
+    position: fixed;
+    top: 4em;
+    right: .5rem;
+    margin-top: -3.5em;
+    padding: .5rem;
+    z-index: 50;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+.hamburger div {
+    position: relative;
+    width: 1.5em;
+    height: .25rem;
+    border-radius: .5rem;
+    background-color: hsl(209, 70%, 41%);
+    margin-top: .25rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+.ham_nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(209, 70%, 41%);
+    top: -100%; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    overflow: hidden;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+}
+
+.ham_nav_wrapper {
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: center;
+    height: 100%;
+  } 
+
+.ham_logo{
+    margin-top: 2rem;
+    transform: scale(50%);
+}
+
+.ham_nav_links {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+  }
+
+.ham_nav_links>a{
+    position: relative;
+    text-decoration: none;
+    color: hsl(30, 7%, 84%);;
+    font-size: .75rem;
+    margin-top: 1.25rem;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 0.2em;
+}
+
+.ham_nav_links>a:before{
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.ham_nav_links>a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.ham_nav_links:hover:before{
+    height: 100%;
+}
+
+/* Hamburger Nav Animations*/
+#toggle:checked + .hamburger .top_line {
+    transform: rotate(-45deg);
+    margin-top: .5rem;
+}
+
+#toggle:checked + .hamburger .bottom_line {
+    opacity: 0;
+    transform: rotate(45deg);
+}
+
+#toggle:checked + .hamburger .middle_line {
+    transform: rotate(45deg);
+    margin-top: -.25rem;
+}
+  
+#toggle:checked + .hamburger + .ham_nav {
+    top: 0;
+    transform: scale(1);
+} 
+
+/*Full Nav*/
+
+.full_nav{
+    display: none;
+    position: fixed;
+    margin: 1rem;
+    height: 9rem;
+    width: 96.5%;
+    background-color: hsl(209, 70%, 41%);
+    z-index: 20;
+}
+
+.logo_container{
+    display: flex;
+}
+
+.logo{
+    transform: scale(.8);
+} 
+
+.top_links{
+    height: 100%;
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    justify-content: center;
+    list-style-type: none; 
+}
+
+
+.top{
+    display: inline;
+    padding-top: 6.75rem;
+    margin: 0 auto;
+}
+
+.top.set1{
+    margin-right: 2rem;
+}
+
+.top.set2{
+    margin-left: 2rem;
+}
+
+a{
+    text-align: center;
+    color: hsl(30, 7%, 84%);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+a:hover, a:active, .active{
+    text-decoration: underline;
+    color: hsl(0, 100%, 100%);
+} 
+
+
+/*Main Image*/
+.facility_image{
+    position: relative;
+    width: 100%;
+} 
+
+
+/*Services Intro*/
+.services_intro{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.75rem;
+    line-height: 3.5rem;
+    letter-spacing: .02em;
+    color: hsl(0, 100%, 100%);
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.2em;
+    color: hsl(209, 62%, 68%);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.our_services{
+    color: hsl(0, 100%, 100%);
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding-bottom: 3rem;
+    max-width: 550px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+/*List of Services*/
+
+.list_of_services{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.service_img{
+    margin: 0 auto;
+    width: 100%;
+    filter: brightness(55%);
+}
+
+.service_img:hover{
+    filter: brightness(40%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.service_1, .service_2, .service_3, .service_4, .service_5, .service_6{
+    position: relative;
+    background-color: hsl(209, 70%, 37%);
+    margin: 1rem 1rem 2.5rem 1rem;
+    padding: .5rem;
+    max-width: 550px;
+}
+
+h3{
+    color: hsl(0, 100%, 100%);
+    text-align: center;
+    font-size: 1.05rem;
+    z-index: 18;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 11rem;
+}
+
+
+
+
+/*Service Description*/
+.service_description{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 100%, 100%);
+    line-height: 1.5rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+/*Lightbox*/
+#lightbox{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+
+#lightbox.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lightbox>img{
+    width: 100%;
+    max-width: 700px;
+}
+
+
+#close_lightbox{
+    position: absolute;
+    background-color: hsl(0, 100%, 100%);
+    padding: .25rem;
+    border: none;
+    font-size: 1.5rem;
+    color: hsl(209, 70%, 37%);
+    z-index: 15;
+    top: 0;
+    right: 0;
+    line-height: 1rem;
+}
+
+#close_lightbox:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(209, 70%, 37%);
+}
+
+/*Consulting Fees*/
+.consulting_fees{
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color:hsl(0, 100%, 100%);
+    text-align: left;
+    line-height: 1.5rem;
+    max-width: 550px;
+}
+
+h4{
+    font-weight: 700;
+}
+
+
+/*Contact Us*/
+.consultation{
+    text-align: center;
+    margin: 2rem;
+    line-height: 2rem;
+    letter-spacing: .02em;
+    color:hsl(0, 100%, 100%);
+}
+
+hr{
+    border: solid 1px hsl(209, 62%, 68%);
+    max-width: 800px;
+}
+
+h5{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#contact_us_btn{
+    position: relative;
+    background-color: hsl(209, 62%, 68%);
+    color: hsl(30, 7%, 84%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem;
+    letter-spacing: .2em;
+    font-weight: bold;
+    border: none;
+    border-radius: .25rem;
+    padding: 8px 0px;
+    max-width: 200px;
+    width: 50%;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+
+#contact_us_btn:hover{
+    cursor: pointer;
+} 
+
+
+/*Footer*/
+
+footer{
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    line-height: 1rem;
+    background-color: hsl(215, 97%, 14%);
+    padding: 1.75rem 0;
+    margin-top: 4rem;
+    color: hsl(0, 0%, 70%);
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: .1em;
+}
+
+.to_top{
+    background-color: hsl(215, 97%, 14%);
+}
+
+.arrow_container, .text{
+    display: inline-block;
+}
+
+.up_arrow{
+    filter: invert(70%);
+    vertical-align: middle;
+    padding-right: 1rem;
+    transform: scale(120%);
+}
+
+#back_to_top_btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    color: hsl(0, 0%, 70%);
+}
+
+#back_to_top_btn:hover{
+    cursor: pointer;
+}
+
+.footer_logo{
+    transform: scale(50%);
+    margin-bottom: 2rem;
+}
+
+.address{
+    margin-bottom: 3rem;
+}
+
+.bottom{
+    margin: 2rem;
+}
+
+.phone{
+    margin: 4rem 0;
+}
+
+#phone_number{
+    font-weight: 700;
+}
+
+.bottom_nav{
+    margin-bottom: 8rem;
+}
+
+.jtech_link{
+    font-weight: 400; 
+}
+
+.copyright>p{
+    margin-top: 1.5rem;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width:760px){
+
+.hamburger, .hamburger div, .ham_nav, .ham_nav_wrapper{
+    display: none;
+}
+
+.full_nav{
+    display: block;
+}
+
+.service_1, .service_2, .service_3, .service_4, .service_5, .service_6{
+    width: 42%;
+}
+
+h1{
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+h2{
+    font-size: .9rem;
+}
+
+.our_services{
+    line-height: 1.75rem;
+}
+
+h3{
+    font-size: 2rem;
+    line-height: 36px;
+    top: 8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+h5{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+#contact_us_btn{
+    font-size: .9rem;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_links{
+    margin-right: 3.1rem;
+}
+
+.address, .phone{
+    margin-top: 6rem;
+}
+
+.copyright{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin:.75rem;
+}
+
+.jtech_link{
+    position: absolute;
+    right: 0;
+    margin-right: .75rem;
+}
+}
+
+@media screen and (min-width:981px){
+.footer_logo{
+    transform: scale(90%);
+}
+
+.contact_info{
+    text-align:left;
+}
+
+.nav_links{
+    display: flex;
+    padding-top: 3rem;
+}
+}
+
+@media screen and (min-width:1200px){
+.full_nav{
+    width: 97.5%;
+}
+}
+
+@media screen and (min-width: 1800px) {
+.full_nav{
+    width: 98.5%;
+    
+}
+}
