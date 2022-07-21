@@ -6,10 +6,11 @@
   <title>Services</title>
   <!-- <img src="assets/img/favicon/club_wellness_favicon.png" alt="Club Wellness favicon"> -->
 <style><?php include 'style.css'; ?></style>
-<link rel="preconnect" href="//fonts.googleapis.com">
+<style><?php include 'font.css'; ?></style>
+<!-- <link rel="preconnect" href="//fonts.googleapis.com">
 <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
 <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link href="//fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
 
 </head>
 
