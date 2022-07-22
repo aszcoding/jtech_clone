@@ -309,22 +309,19 @@ h2{
     background-color: hsl(209, 70%, 37%);
     margin: 1rem 1rem 2.5rem 1rem;
     padding: .5rem;
-    max-width: 550px;
+    max-width: 500px;
 }
 
 h3{
     color: hsl(0, 100%, 100%);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     z-index: 18;
     position: absolute;
     left: 0;
     right: 0;
-    top: 11rem;
+    top: 7rem;
 }
-
-
-
 
 /*Service Description*/
 .service_description{
@@ -519,6 +516,12 @@ footer{
 }
 
 /*Media Queries*/
+@media screen and (min-width:400px){
+h3{
+    font-size: 1.5rem;
+    top: 10;
+}
+}
 
 @media screen and (min-width:760px){
 
