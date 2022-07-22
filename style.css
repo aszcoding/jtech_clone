@@ -315,7 +315,7 @@ h2{
 h3{
     color: hsl(0, 100%, 100%);
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1.5rem;
     z-index: 18;
     position: absolute;
     left: 0;
@@ -548,7 +548,6 @@ h2{
 }
 
 h3{
-    font-size: 1.5rem;
     line-height: 36px;
     top: 8rem;
     margin-left: 1.5rem;
