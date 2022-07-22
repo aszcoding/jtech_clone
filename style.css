@@ -58,15 +58,6 @@ body{
     line-height: 30px;
 }
 
-
-/* body::-webkit-scrollbar {
-    width: 20px;              /* width of the entire scrollbar */
-   */
-  
-  /* body::-webkit-scrollbar-thumb {
-    border-radius: 5px;       /* roundness of the scroll thumb */
-  */
-
 h1, h2, h3, h4{
     font-family: 'Fahkwang', sans-serif;
     font-weight: 300;
@@ -557,7 +548,7 @@ h2{
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 36px;
     top: 8rem;
     margin-left: 1.5rem;
