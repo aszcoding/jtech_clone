@@ -39,7 +39,7 @@
           <ul class="top_links">
             <li class="top set1"><a href="#">Home</a></li>
             <li class="top set1"><a class="active" href="#">Services</a></li>
-            <li class="logo_container"><img class="logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions"></li>
+            <li class="logo_container"><img class="top_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions"></li>
             <li class="top set2"><a href="#">About</a></li>
             <li class="top set2"><a href="#">Contact</a></li>
           </ul>
@@ -312,7 +312,7 @@
     </div>
 
     <div class="footer_logo">
-      <img class="logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions">
+      <img class="bottom_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions">
     </div>
 
     <div class="bottom_nav">

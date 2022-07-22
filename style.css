@@ -194,7 +194,7 @@ h1, h2, h3, h4{
     display: flex;
 }
 
-.logo{
+.top_logo{
     transform: scale(.8);
 } 
 
@@ -619,7 +619,7 @@ h3{
 }
 }
 
-.logo{
+.top_logo{
     margin-left: 4rem;
     margin-right: 4rem;
 }
