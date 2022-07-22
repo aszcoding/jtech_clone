@@ -611,6 +611,10 @@ h3{
 }
 
 @media screen and (min-width:1200px){
+h3{
+    font-size: 3rem;
+}
+
 .full_nav{
     width: 97.5%;
 }
