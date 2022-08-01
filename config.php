@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Config</title>
-</head>
-<body>
-
 <?php
 
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -18,6 +10,3 @@ $query_builder = TRUE;
 
 $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 ?>
-
-</body>
-</html>
