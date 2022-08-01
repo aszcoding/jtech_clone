@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap" rel="stylesheet">
+<?php include_once("config.php"); ?>
 
 </head>
 
@@ -62,7 +63,7 @@
           <img class="service_img" src="content/services/ic_1547765637_520x346_true.jpg"  alt="Arms on a desk with coffee and a laptop"/>
             <div class="overlay">
               <?php
-                include_once("config.php");
+                // include_once("config.php");
 
                 $sql = "SELECT service FROM service_titles WHERE id=1;";
                 $result = mysqli_query($conn, $sql);
