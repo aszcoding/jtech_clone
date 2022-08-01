@@ -280,7 +280,7 @@
               echo "<p class='service_description'>" . $row['description'] . "<br>" . "</p>";
                 }}
 
-                // $conn->close();
+                $conn->close();
             ?>
         </div>
     </div>
