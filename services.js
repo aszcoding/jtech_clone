@@ -8,13 +8,15 @@ for(var i=0; i<6; i++){
 const serviceContainer = document.createElement('div')
 serviceContainer.className = "service_0" + i
 serviceContainer.id = "service_container"
-document.getElementById("service_container").innerHTML +=
-`<div class = "img_container">
-    <img class = "service_img"/>
- </div>
-<div class = "overlay"></div>
-<div class = "service_details>
-</div>`
+document.getElementById("services").appendChild(serviceContainer)
+
+// document.getElementById("services").innerHTML +=
+// `<div class = "img_container">
+//     <img class = "service_img"/>
+//  </div>
+// <div class = "overlay"></div>
+// <div class = "service_details>
+// </div>`
 }
 
 // for(var i=0; i<6; i++){
