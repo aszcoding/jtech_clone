@@ -57,7 +57,7 @@
           <p class="our_services">Our services support the wellness evolution of your club. Club Wellness Evolutions' comprehensive hands-on approach delivers a thorough, high-touch integrated consulting service for your club.</p>
     </div>
 
-   <div class="list_of_services">
+   <div class="list_of_services" id="services">
 
   </div>
 

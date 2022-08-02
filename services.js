@@ -5,7 +5,7 @@
 // }
 
 for(var i=0; i<6; i++){
-document.getElementsByClassName("list_of_services").innerHTML +=
+document.getElementsById("services").innerHTML +=
 `<div class = "service_0" + i>
     <div class = "img_container">
         <img class = "service_img"/>
