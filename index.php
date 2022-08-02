@@ -58,7 +58,7 @@
     </div>
 
    <div class="list_of_services">
-   <script src="services.js" async></script>
+
   </div>
 
   <div class="consulting_fees">
@@ -131,4 +131,5 @@
 </main>
 </body>
 <script src="lightbox.js" async></script>
+<script src="services.js" async></script>
 </html>
