@@ -6,7 +6,7 @@
 
 for(var i=0; i<6; i++){
 document.getElementById("services").innerHTML +=
-`<div class = "service_0' + i + '">
+`<div class = "service_0.i++">
     <div class = "img_container">
         <img class = "service_img"/>
     </div>
@@ -16,7 +16,7 @@ document.getElementById("services").innerHTML +=
 }
 
 // for(var i=0; i<6; i++){
-//     document.body.innerHTML += '<div class="service_' + i + '"> <div class="img_container"><img class="service_img"/> <div class="overlay"> <div class="service_details"> </div></div></div></div>'
+//     document.body.innerHTML += `<div class="service_' + i + '"> <div class="img_container"><img class="service_img"/> <div class="overlay"> <div class="service_details"> </div></div></div></div>`
 // }
 
 // const div1 = document.createElement('div');
