@@ -5,12 +5,14 @@
 // }
 
 for(var i=0; i<6; i++){
-document.getElementById("services").innerHTML +=
-`<div class = "service_i++">
-    <div class = "img_container">
-        <img class = "service_img"/>
-    </div>
-    <div class = "overlay"></div>
+const serviceContainer = document.createElement('div')
+serviceContainer.className = "service_0" + i
+serviceContainer.id = "service_container"
+document.getElementById("service_container").innerHTML +=
+`<div class = "img_container">
+    <img class = "service_img"/>
+ </div>
+<div class = "overlay"></div>
 <div class = "service_details>
 </div>`
 }
