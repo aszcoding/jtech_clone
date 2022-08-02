@@ -1,4 +1,3 @@
-const servicesLoop = document.createDocumentFragment();
 
 for(var i=0; i<6; i++){
     document.body.innerHTML += `<div class="service_'+ i'">
