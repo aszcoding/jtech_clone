@@ -1,4 +1,4 @@
-const servicesLoop = document.createDocumentFragment();
+const servicesLoop = document.getElementsByClassName("list_of_services")
 
 for(var i=0; i<6; i++){
     const div1 = document.createElement('div');
