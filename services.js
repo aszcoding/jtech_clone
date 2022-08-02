@@ -1,6 +1,6 @@
 for(var i=0; i<6; i++){
 const servicesContainer = document.createElement('div')
-servicesContainer.className = "services_' + i + '"
+servicesContainer.className = "service_' + i + '"
 document.body.appendChild(servicesContainer)
 }
 
