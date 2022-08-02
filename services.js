@@ -1,7 +1,7 @@
 for(var i=0; i<6; i++){
 const servicesContainer = document.createElement('div')
-servicesContainer.className = "service_' + i + '"
-document.getElementsByClassName('list_of_services').appendChild(servicesContainer)
+servicesContainer.className = "service_" + i
+document.appendChild(servicesContainer)
 }
 
 // for(var i=0; i<6; i++){
