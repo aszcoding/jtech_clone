@@ -1,7 +1,18 @@
+// for(var i=0; i<6; i++){
+// const servicesContainer = document.createElement('div')
+// servicesContainer.className = "service_0" + i
+// document.body.appendChild(servicesContainer)
+// }
+
 for(var i=0; i<6; i++){
-const servicesContainer = document.createElement('div')
-servicesContainer.className = "service_0" + i
-document.body.appendChild(servicesContainer)
+document.getElementsByClassName("list_of_services").innerHTML +=
+`<div class = "service_0" + i>
+    <div class = "img_container">
+        <img class = "service_img"/>
+    </div>
+    <div class = "overlay"></div>
+<div class = "service_details>
+</div>`
 }
 
 // for(var i=0; i<6; i++){
