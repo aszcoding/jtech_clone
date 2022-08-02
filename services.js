@@ -1,16 +1,16 @@
-for(var i=0; i<6; i++){
-const serviceContainer = document.createElement('div')
-serviceContainer.className = "service_0" + i
-serviceContainer.id = "service"
-document.body.appendChild(serviceContainer)
-}
+// for(var i=0; i<6; i++){
+// const serviceContainer = document.createElement('div')
+// serviceContainer.className = "service_" + i
+// document.body.appendChild(serviceContainer)
+// }
 
 for(var i=0; i<6; i++){
-document.getElementById("service").innerHTML +=
-`  <div class = "img_container">
+document.getElementById("services").innerHTML +=
+`<div class = "service">
+    <div class = "img_container">
         <img class = "service_img"/>
     </div>
-    <div class = "overlay"></div>
+<div class = "overlay"></div>
 <div class = "service_details>
 </div>`
 }
