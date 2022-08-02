@@ -16,6 +16,6 @@ for(var i=0; i<6; i++){
     const div4 = document.createElement('div');
     div4.className = "service_details";
 
-    document.appendChild(servicesLoop);
+    document.body.appendChild(servicesLoop);
 
 }
