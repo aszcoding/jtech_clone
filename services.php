@@ -4,17 +4,15 @@ include("main_services_query.php");
  $element = "<div class='service'>";
  $element2= "<div class='img_container'>";
  $element3= "<img class='service_img'/></div>";
- $element4= "<div class='overlay'>";?>
- 
-             <?php
+ $element4= "<div class='overlay'><?php
+
              if($resultCheck > 0){
              while($row = $result->fetch_assoc()){
              echo "<h3 class='service_title'>" . $row['service_title'] . "<br>" . "</h3>";
              }}
+             
              ?>
-
-             <?php
-            "</div>";
+            </div>";
 
  $element5= "<div class='service_details'></div></div>";
  $count = 6;
