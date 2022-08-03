@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap" rel="stylesheet">
 <?php include_once("config.php");
-      include("services.php"); 
+      include("main_services_query.php"); 
 ?>
 
 </head>
@@ -60,7 +60,12 @@
     </div>
 
    <div class="list_of_services" id="services">
-   
+   <?php if($resultCheck > 0){
+                    while($row = $result->fetch_assoc()){
+                      echo "<h3 class='service_title'>" . $row['title'] . "<br>" . "</h3>";
+                      echo "<p class='service_description'>" . $row['description'] . "<br>" . "</p>";
+                    }}
+  ?>
 
   </div>
 
