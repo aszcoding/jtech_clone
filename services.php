@@ -9,6 +9,9 @@
      echo $element, $element2, $element3, $element4, $element5;
  }
 
-
+ if($resultCheck > 0){
+    while($row = $result->fetch_assoc()){
+  echo "<h3 class='service_title'>" . $row['service'] . "<br>" . "</h3>";
+    }}
 ?>
 
