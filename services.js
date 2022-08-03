@@ -10,6 +10,5 @@ document.getElementById("services").innerHTML +=
 }
 
 
-const serviceContainer = document.getElementsByClassName("service")
-serviceContainer.id = 'service' + i 
-document.body.appendChild(serviceContainer)
+const serviceContainer = document.querySelector(".service")
+serviceContainer.setAttribute('id', 'service' + i)
