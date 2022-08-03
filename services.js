@@ -9,8 +9,7 @@ document.getElementById("services").innerHTML +=
 </div>`
 }
 
-for(var i=0; i<6; i++){
+
 const serviceContainer = document.getElementsByClassName("service")
 serviceContainer.id = 'service' + i 
 document.body.appendChild(serviceContainer)
-}
