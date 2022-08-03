@@ -1,4 +1,6 @@
 <?php 
+include("main_services_query.php");
+
  $element = "<div class='service'>";
  $element2= "<div class='img_container'>";
  $element3= "<img class='service_img'/></div>";
