@@ -1,7 +1,7 @@
 <?php 
-$element = "<div id=service";
-$count = 6;
-foreach($id=0;$id<$count;$id++) {
-    echo $element."div".$id."></div>";
-}
+ $element = "<div></div>";
+ $count = 6;
+ foreach( range(1,$count) as $item){
+     echo $element;
+ }
 ?>
