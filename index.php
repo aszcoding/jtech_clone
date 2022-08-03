@@ -60,7 +60,7 @@
     </div>
 
    <div class="list_of_services" id="services">
-    <?php include("services.php")?>
+    <?php include("services.php");?>
 
   </div>
 
