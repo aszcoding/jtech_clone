@@ -1,5 +1,5 @@
 <?php
-    $sql = "SELECT * FROM services WHERE id=4;";
+    $sql = "SELECT * FROM services WHERE active=1;";
     $result = mysqli_query($conn, $sql);
     $resultCheck = mysqli_num_rows($result);
 
