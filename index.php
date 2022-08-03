@@ -60,12 +60,7 @@
     </div>
 
    <div class="list_of_services" id="services">
-   <?php if($resultCheck > 0){
-                    while($row = $result->fetch_assoc()){
-                      echo "<h3 class='service_title'>" . $row['service_title'] . "<br>" . "</h3>";
-                      echo "<p class='service_description'>" . $row['description'] . "<br>" . "</p>";
-                    }}
-  ?>
+
 
   </div>
 
