@@ -8,13 +8,17 @@ include("main_services_query.php");
             if($resultCheck > 0){
             while($row = $result->fetch_assoc()){
             echo "<h3 class='service_title'>" . $row['service_title'] . "<br>" . "</h3>";
-            }}
+            }};
             "</div>";
  $element5= "<div class='service_details'></div></div>";
  $count = 6;
  foreach( range(1,$count) as $item){
      echo $element, $element2, $element3, $element4, $element5;
+     echo '<h3>';
+     echo $row['service_title'] . "<br>";
+     echo '</h3>';
+
+
  }
 
 ?>
-
