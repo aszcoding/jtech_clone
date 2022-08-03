@@ -9,6 +9,5 @@ document.getElementById("services").innerHTML +=
 </div>`
 }
 
-
 const serviceContainer = document.querySelectorAll(".service")
-serviceContainer.setAttribute('id', 'service' + i)
+serviceContainer.id = "service" + i
