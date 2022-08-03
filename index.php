@@ -60,7 +60,7 @@
     </div>
 
    <div class="list_of_services" id="services">
-
+    <?php include("services.php")?>
 
   </div>
 
@@ -134,5 +134,5 @@
 </main>
 </body>
 <script src="lightbox.js" async></script>
-<script src="services.js" async></script>
+<!-- <script src="services.js" async></script> -->
 </html>

@@ -1,5 +1,7 @@
-<?php
-    $sql = "SELECT * FROM services WHERE active=1;";
-    $result = mysqli_query($conn, $sql);
-    $resultCheck = mysqli_num_rows($result);
+<?php 
+$element = "<div id=service";
+$count = 6;
+foreach($id=0;$id<$count;$id++) {
+    echo $element."div".$id."></div>";
+}
 ?>
