@@ -1,7 +1,7 @@
 <?php 
  $element = "<div class='service'></div>";
  $element2= "<div class='img_container'></div>";
- $element3= "<img class='service_img'></div>";
+ $element3= "<img class='service_img'/>";
  $element4= "<div class='overlay'></div>";
  $element5= "<div class='service_details'></div>";
  $count = 6;
