@@ -2,7 +2,8 @@
     while ($row = $result->fetch_assoc()) { ?>
         <div class="service">
             <div class="img_container">
-            <?php echo "<img src='data:image/jpg;base64,".$row["img_src"]."'/>";?>
+            <?php header("Content-type: image/jpg");
+             echo "<img src='data:image/jpg;base64,".$row["img_src"]."'/>";?>
             </div>
             <div class="overlay">
                 <h3 class="service_title"><?php echo $row["service_title"]; ?></h3>
