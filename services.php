@@ -2,7 +2,7 @@
     while ($row = $result->fetch_assoc()) { ?>
         <div class="service">
             <div class="img_container">
-                <img class="service_img" />
+                <img class="service_img"<?php echo $row["img_src"]; ?> />
             </div>
             <div class="overlay">
                 <h3 class="service_title"><?php echo $row["service_title"]; ?></h3>
