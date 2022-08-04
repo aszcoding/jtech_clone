@@ -7,7 +7,9 @@
             <div class="overlay">
                 <h3 class="service_title"><?php echo $row["service_title"]; ?></h3>
             </div>
-            <div class="service_details"></div>
+            <div class="service_details">
+            <p class='service_description'><?php echo $row['description']; ?></p>
+            </div>
         </div>
     <?php }
     } ?>
