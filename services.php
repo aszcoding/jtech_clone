@@ -1,31 +1,16 @@
-<?php 
-include("title_services_query.php");
+<div class="container">
+    <?php if ($resultCheck > 0) {
+        while ($row = $result->fetch_assoc()) { ?>
+            <div class="service">
+                <h3 class="service_title"><?php echo $row["service_title"]; ?></h3>
+                <div class="img_container">
+                    <img class="service_img" />
+                </div>
+                <div class="overlay"></div>
+                <div class="service_details"></div>
+            </div>
+    <?php }
+    } ?>
+</div>
+<?php
 
-
-
- $element = "<div class='service'>";
- $element2= "<div class='img_container'>";
- $element3= "<img class='service_img'/></div>";
- $element4= "<div class='overlay'>".include('title_services_query.php')."</div>";
- $element5= "<div class='service_details'></div></div>";
- $count = 6;
- foreach( range(1,$count) as $item){
-     echo $element, $element2, $element3, $element4, $element5;
-
- }
-
- ?>
-
-
-<!-- if($resultCheck > 0){
-while($row = $result->fetch_assoc()){
-    echo "<h3 class='service_title'>" . $row['service_title'] . "<br>" . "</h3>";
-    echo "<p class='service_description'>" . $row['description'] . "<br>" . "</p>";
-}}
-           
-if($resultCheck > 0){
-while($row = $result->fetch_assoc()){
-echo "<h3 class='service_title'>" . $row['service_title'] . "<br>" . "</h3>";
-}}
-
-?> -->
