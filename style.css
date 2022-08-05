@@ -568,9 +568,6 @@ h2{
 
 h3{
     line-height: 36px;
-    top: 8rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
 }
 
 h5{
@@ -610,9 +607,6 @@ h5{
 }
 
 @media screen and (min-width:981px){
-h3{
-    font-size: 2rem;
-}
 
 .footer_logo{
     transform: scale(90%);
