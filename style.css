@@ -298,20 +298,17 @@ h2{
     display: block;
     margin: 0 auto;
     width: 100%;
+    min-height: 150px;
 }
 
-.alt_img{
-    opacity: 0;
-}
-
-.service_img, .alt_img{
+.service_img{
     display: block;
     margin: 0 auto;
     width: 100%;
     filter: brightness(55%);
 }
 
-.service_img:hover, .alt_img:hover{
+.service_img:hover{
     filter: brightness(40%);
     transition: 0.3s;
     cursor: pointer;
