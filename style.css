@@ -307,7 +307,7 @@ h2{
     filter: brightness(55%);
 }
 
-.service_img:hover{
+.service_img:hover, .alt_img:hover{
     filter: brightness(40%);
     transition: 0.3s;
     cursor: pointer;
