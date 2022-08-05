@@ -19,4 +19,3 @@
 </div>
 <?php
 
-// '<img src="assets/img/main/club-wellness-evolutions.svg" "class="alt_img" "alt="Club wellness logo"/>';
