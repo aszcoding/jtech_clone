@@ -545,8 +545,12 @@ h3{
     display: block;
 }
 
-.service_1, .service_2, .service_3, .service_4, .service_5, .service_6{
+.service{
     width: 42%;
+}
+
+.img_container{
+    min-height: 250px;
 }
 
 h1{
