@@ -6,13 +6,10 @@
                 <?php if($row["img_src"] != null) {
                     echo '<img src="data:image/jpg;base64,'. base64_encode($row["img_src"]).' "class="service_img" "alt='.$row['img_alt_txt'].'" />';
                 }else{
-                    echo "";
+                    echo '<img src="assets/img/main/club-wellness-evolutions.svg" "class="alt_img" "alt="Club wellness logo"/>';
                 }
                 ?>
             </div>
-            <!-- <div class="overlay">
-
-            </div> -->
             <div class="service_details">
             <p class="service_description"><?php echo $row["description"]; ?></p>
             </div>
