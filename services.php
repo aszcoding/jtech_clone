@@ -2,7 +2,7 @@
     while ($row = $result->fetch_assoc()) { ?>
         <div class="service">
             <div class="img_container">
-            <?php echo '<img src="data:image/jpg;base64,'. base64_encode($row["img_src"]).' "class="service_img" "alt='.$row['img_alt_txt'].'" "onerror="this.onerror=null; this.src= assets/img/main/club-wellness-evolutions.svg";" />'?>
+            <?php echo '<img src="data:image/jpg;base64,'. base64_encode($row["img_src"]).' "class="service_img" "alt='.$row['img_alt_txt'].'" "onerror="this.onerror=null; this.src="assets/img/main/club-wellness-evolutions.svg;""" />'?>
             </div>
             <div class="overlay">
                 <h3 class="service_title"><?php echo $row["service_title"]; ?></h3>
