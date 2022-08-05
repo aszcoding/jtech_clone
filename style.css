@@ -294,6 +294,7 @@ h2{
 
 .img_container{
     background-image: linear-gradient(hsl(208, 73%, 31%), hsl(209, 62%, 68%));
+    background-size: cover;
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -306,7 +307,7 @@ h2{
     filter: brightness(55%);
 }
 
-.service_img:hover{
+.service_img:hover .img_container:hover{
     filter: brightness(40%);
     transition: 0.3s;
     cursor: pointer;
