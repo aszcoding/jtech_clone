@@ -300,6 +300,10 @@ h2{
     width: 100%;
 }
 
+.alt_img{
+    opacity: 0;
+}
+
 .service_img, .alt_img{
     display: block;
     margin: 0 auto;
