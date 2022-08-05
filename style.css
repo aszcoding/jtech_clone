@@ -293,10 +293,11 @@ h2{
 }
 
 .img_container{
-    background-image: linear-gradient(hsl(208, 73%, 31%), hsl(0, 100%, 100%));
+    background-image: linear-gradient(hsl(208, 73%, 31%), hsl(209, 62%, 68%));
 }
 
 .service_img{
+    display: block;
     margin: 0 auto;
     width: 100%;
     filter: brightness(55%);
