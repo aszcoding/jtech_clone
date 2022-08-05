@@ -134,5 +134,4 @@
 </main>
 </body>
 <script src="lightbox.js" async></script>
-<!-- <script src="services.js" async></script> -->
 </html>
