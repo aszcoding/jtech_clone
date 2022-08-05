@@ -304,6 +304,10 @@ h2{
     cursor: pointer;
 }
 
+.alt_img{
+    display: block;
+}
+
 .service{
     position: relative;
     background-color: hsl(209, 70%, 37%);
