@@ -236,3 +236,4 @@ echo "<h3 class='service_title'>" . $row['service_title'] . "<br>" . "</h3>";
 }}
 
 ?>
+            <?php echo '<img src="data:image/jpg;base64,'. base64_encode($row["img_src"]).' "class="service_img" "alt='.$row['img_alt_txt'].'" "onerror="this.onerror=null; this.src="assets/img/main/club-wellness-evolutions.svg." />'?>
