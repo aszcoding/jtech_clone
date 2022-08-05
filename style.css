@@ -291,16 +291,15 @@ h2{
     width: 100%;
 
 }
-/* 
+
 .img_container{
     background-image: linear-gradient(hsl(208, 73%, 31%), hsl(209, 62%, 68%));
     display: block;
     margin: 0 auto;
     width: 100%;
-} */
+}
 
 .service_img{
-    background-image: linear-gradient(hsl(208, 73%, 31%), hsl(209, 62%, 68%));
     display: block;
     margin: 0 auto;
     width: 100%;
