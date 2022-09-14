@@ -4,7 +4,7 @@
             <div class="img_container">
                 <h3 class="service_title"><?php echo $row["service_title"]; ?></h3>
                 <?php if($row["img_src"] != null) {
-                    echo '<img src="$row[img_src]" "class="service_img" "alt='.$row['img_alt_txt'].'" />';
+                    echo '<img src='.$row["img_src"].' class="service_img" "alt='.$row['img_alt_txt'].'" />';
                 }else{
                     echo "";
                 }
