@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="home">
   <a  name="top"></a>
   <main>
     <header>
@@ -49,12 +49,12 @@
         </nav>
     </header>
   
-    <div class="facility_image_container">
-      <img class="facility_image" src="content/services-sp/ic_1547766459_1600x462_true.jpg" alt="Massage tables">
+    <div class="gallery_container">
+      <!--CREATE PHP GALLERY-->
     </div>
 
     <div class="services_intro">
-      <h1>Club Wellness Evolutions Consulting Services</h1>
+      <h1>Club Wellness Evolutions</h1>
         <h2>Preparing for the club of the future — <br> From concept to creation and beyond.</h3>
           <p class="our_services">Our services support the wellness evolution of your club. Club Wellness Evolutions' comprehensive hands-on approach delivers a thorough, high-touch integrated consulting service for your club.</p>
     </div>
