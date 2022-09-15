@@ -251,6 +251,10 @@ a:hover, a:active, .active{
     margin: 0 auto;
 }
 
+.home_intro{
+    text-align: center;
+}
+
 
 /*SERVICES*/
 /*Main Image*/
