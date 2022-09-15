@@ -51,6 +51,7 @@
       <!--CREATE PHP GALLERY-->
     </div>
 
+<div class="home_body">
     <div class="home_intro">
       <h1>Club Wellness Evolutions</h1>
         <h4>Inspiration. Innovation. Integration.</h4>
@@ -84,6 +85,7 @@
     <button id="services_btn" href="services.php">Our Services</button>
     <hr>
   </div>
+</div>
 
   <footer>
     <div class="to_top">

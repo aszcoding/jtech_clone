@@ -58,7 +58,7 @@ body{
     line-height: 30px;
 }
 
-.home{
+.home, .about{
     background-color:hsl(0, 100%, 100%);
 }
 
@@ -245,7 +245,14 @@ a:hover, a:active, .active{
     color: hsl(0, 100%, 100%);
 } 
 
+/*HOME*/
+.home_body{
+    width: 900px;
+    margin: 0 auto;
+}
 
+
+/*SERVICES*/
 /*Main Image*/
 .facility_image{
     position: relative;
@@ -433,7 +440,7 @@ h5{
     margin-bottom: 1rem;
 }
 
-#contact_us_btn{
+#contact_us_btn, #services_btn{
     position: relative;
     background-color: hsl(209, 62%, 68%);
     color: hsl(30, 7%, 84%);
@@ -452,7 +459,7 @@ h5{
 }
 
 
-#contact_us_btn:hover{
+#contact_us_btn:hover, #services_btn:hover{
     cursor: pointer;
 } 
 
