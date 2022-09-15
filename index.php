@@ -10,9 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap" rel="stylesheet">
-<?php include_once("config.php");
-      include("main_services_query.php"); 
-?>
+<?php include_once("config.php");?>
 
 </head>
 
@@ -53,27 +51,37 @@
       <!--CREATE PHP GALLERY-->
     </div>
 
-    <div class="services_intro">
+    <div class="home_intro">
       <h1>Club Wellness Evolutions</h1>
-        <h2>Preparing for the club of the future — <br> From concept to creation and beyond.</h3>
-          <p class="our_services">Our services support the wellness evolution of your club. Club Wellness Evolutions' comprehensive hands-on approach delivers a thorough, high-touch integrated consulting service for your club.</p>
+        <h4>Inspiration. Innovation. Integration.</h4>
     </div>
 
-   <div class="list_of_services" id="services">
-    <?php include("service_cards.php");?>
+   <div class="home_intro_text">
+    <h4>Solutions Moving Wellness From Where You Are, To Where You Want To Be.</h4>
+    <p>Lifestyle Real Estate is a 134 Billion Dollar industry according to the 2018 Global Wellness Economy Monitor.
+        Private Clubs have a unique opportunity and are well positioned to add or expand their programs and facilities
+        to offer members a comprehensive wellness lifestyle while becoming a competitive choice for future members.</p>
 
+        <div class="home_body_img">
+            <!--PHP CODE TO PULL BODY IMAGE AND INSERT HERE-->
+        </div>
+
+    <p>Club Wellness Evolutions collaborates with private club managers, boards and committees, architects, 
+        vendors and other industry experts to plan the programs, facilities and operational model that best meets 
+        the club’s specific needs. From feasibility studies to facility and floor plan layouts to staff recruitment and 
+        long-term strategic planning, Club Wellness Evolutions offers a variety of services that set the standard of 
+        private club wellness operations.</p>
+
+    <p>Our consultants take a data-driven team approach to creating an integrated wellness lifestyle ecosystem 
+        within the club. Club Wellness Evolutions has over 20 years of experience in the private club industry and 
+        has developed the process and efficiencies to guide you from concept development and design to long-
+        term operational success.</p>
   </div>
 
-  <div class="consulting_fees">
-    <h4>Consulting Fees</h4>
-    <p>The Consulting service fees range from an hourly rate for specific work to a contract fee that encompasses the scope of a project. 
-      Contact us to discuss how our services can assist with your unique club objectives.</p>
-  </div>
-
-  <div class="consultation">
+  <div class="learn_more">
     <hr>
-    <h5>Interested In A Consultation?</h5>
-    <button id="contact_us_btn" href="#">Contact Us</button>
+    <h5>Learn More About Our Approach</h5>
+    <button id="services_btn" href="services.php">Our Services</button>
     <hr>
   </div>
 
