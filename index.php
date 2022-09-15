@@ -82,7 +82,7 @@
 
   <div class="learn_more">
     <hr>
-    <h5>Learn More About Our Approach</h5>
+    <h5 class="home_btn_heading">Learn More About Our Approach</h5>
     <button id="services_btn" href="services.php">Our Services</button>
     <hr>
   </div>

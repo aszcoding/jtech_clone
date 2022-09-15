@@ -440,6 +440,10 @@ h5{
     margin-bottom: 1rem;
 }
 
+.home_btn_heading{
+    color: hsl(0, 0%, 0%)
+}
+
 #contact_us_btn, #services_btn{
     position: relative;
     background-color: hsl(209, 62%, 68%);
