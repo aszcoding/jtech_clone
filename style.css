@@ -247,7 +247,7 @@ a:hover, a:active, .active{
 
 /*HOME*/
 .home_body{
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -459,11 +459,10 @@ h5{
     width: 50%;
     margin-bottom: 2rem;
     text-transform: uppercase;
-    transition: 0.3s;
 }
 
 
-#contact_us_btn:hover, #services_btn:hover{
+.call_to_action_btn:hover{
     cursor: pointer;
 } 
 
