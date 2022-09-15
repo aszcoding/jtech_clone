@@ -73,7 +73,7 @@
   <div class="consultation">
     <hr>
     <h5>Interested In A Consultation?</h5>
-    <button id="contact_us_btn" href="#">Contact Us</button>
+    <button id="contact_us_btn" href="contact.php">Contact Us</button>
     <hr>
   </div>
 
