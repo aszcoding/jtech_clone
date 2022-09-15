@@ -32,19 +32,19 @@
             <nav class="ham_nav_links">
               <a href="index.php">Home</a>
               <a class="active" href="services.php">Services</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
+              <a href="about.php">About</a>
+              <a href="contact.php">Contact</a>
             </nav>
           </div>
         </div>
         
         <nav class="full_nav">
           <ul class="top_links">
-            <li class="top set1"><a href="#">Home</a></li>
-            <li class="top set1"><a class="active" href="#">Services</a></li>
+            <li class="top set1"><a href="index.php">Home</a></li>
+            <li class="top set1"><a class="active" href="services.php">Services</a></li>
             <li class="logo_container"><img class="top_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions"></li>
-            <li class="top set2"><a href="#">About</a></li>
-            <li class="top set2"><a href="#">Contact</a></li>
+            <li class="top set2"><a href="about.php">About</a></li>
+            <li class="top set2"><a href="contact.php">Contact</a></li>
           </ul>
         </nav>
     </header>
