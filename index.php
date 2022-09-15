@@ -62,6 +62,7 @@
     <p>Lifestyle Real Estate is a 134 Billion Dollar industry according to the 2018 Global Wellness Economy Monitor.
         Private Clubs have a unique opportunity and are well positioned to add or expand their programs and facilities
         to offer members a comprehensive wellness lifestyle while becoming a competitive choice for future members.</p>
+        <br>
 
         <div class="home_body_img">
             <!--PHP CODE TO PULL BODY IMAGE AND INSERT HERE-->
@@ -72,7 +73,7 @@
         the club’s specific needs. From feasibility studies to facility and floor plan layouts to staff recruitment and 
         long-term strategic planning, Club Wellness Evolutions offers a variety of services that set the standard of 
         private club wellness operations.</p>
-
+        <br>
     <p>Our consultants take a data-driven team approach to creating an integrated wellness lifestyle ecosystem 
         within the club. Club Wellness Evolutions has over 20 years of experience in the private club industry and 
         has developed the process and efficiencies to guide you from concept development and design to long-
