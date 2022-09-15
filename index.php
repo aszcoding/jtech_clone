@@ -30,8 +30,8 @@
           <div class="ham_nav_wrapper">
             <img class="ham_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions">
             <nav class="ham_nav_links">
-              <a href="#">Home</a>
-              <a class="active" href="#">Services</a>
+              <a href="#" class="active">Home</a>
+              <a href="#">Services</a>
               <a href="#">About</a>
               <a href="#">Contact</a>
             </nav>
@@ -60,7 +60,7 @@
     </div>
 
    <div class="list_of_services" id="services">
-    <?php include("services.php");?>
+    <?php include("service_cards.php");?>
 
   </div>
 
