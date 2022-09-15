@@ -149,6 +149,7 @@ h1, h2, h3, h4{
 }
 
 .ham_nav_links>a:hover{
+    transition: color 1s;
     color: white;
     cursor: pointer;
 }
@@ -228,6 +229,10 @@ a{
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+a:hover{
+    transition: color 1s;
 }
 
 
