@@ -421,7 +421,7 @@ h4{
 
 
 /*Contact Us*/
-.consultation, .learn_more{
+.call_to_action{
     text-align: center;
     margin: 2rem;
     line-height: 2rem;
@@ -444,7 +444,7 @@ h5{
     color: hsl(0, 0%, 0%)
 }
 
-#contact_us_btn, #services_btn{
+.call_to_action_btn{
     position: relative;
     background-color: hsl(209, 62%, 68%);
     color: hsl(30, 7%, 84%);

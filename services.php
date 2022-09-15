@@ -70,10 +70,10 @@
       Contact us to discuss how our services can assist with your unique club objectives.</p>
   </div>
 
-  <div class="consultation">
+  <div class="call_to_action">
     <hr>
     <h5>Interested In A Consultation?</h5>
-    <button id="contact_us_btn" href="contact.php">Contact Us</button>
+    <button class="call_to_action_btn" href="contact.php">Contact Us</button>
     <hr>
   </div>
 
