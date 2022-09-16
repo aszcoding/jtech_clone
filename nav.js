@@ -34,8 +34,10 @@ navLinks.forEach(link => {
         navLinks.classList.add('active')
         if (e.target !== e.currentTarget) return
         navLinks.classList.remove('active')
-    })
+    });
 });
+
+};
 
 createTopNav();
 
@@ -97,4 +99,3 @@ function createFooter(){
 };
 
 createFooter();
-
