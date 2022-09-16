@@ -36,7 +36,9 @@ for (var i = 0, length = a.length; i < length; i++) {
     if (b) b.classList.remove("active");
     this.parentNode.classList.add('active');
   };
-}; 
+}
+
+};
 
 createTopNav();
 
