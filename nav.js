@@ -11,7 +11,7 @@ function createTopNav(){
       <div class="ham_nav_wrapper">
         <img class="ham_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions">
         <nav class="ham_nav_links">
-          <a class=<php? {{request()->is('index') ? 'active': ''}}?> href="index.php">Home</a>
+          <a href="index.php">Home</a>
           <a href="services.php">Services</a>
           <a href="about.php">About</a>
           <a href="contact.php">Contact</a>
@@ -20,7 +20,7 @@ function createTopNav(){
     </div>
     <nav class="full_nav">
         <ul class="top_links">
-            <li class="top set1"><a class="<php? {{request()->is('index') ? 'active': ''}}?>" href="index.php">Home</a></li>
+            <li class="top set1"><a href="index.php">Home</a></li>
             <li class="top set1"><a href="services.php">Services</a></li>
             <li class="logo_container"><img class="top_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions"></li>
             <li class="top set2"><a href="about.php">About</a></li>
@@ -28,6 +28,16 @@ function createTopNav(){
         </ul>
     </nav>
 `
+document.querySelectorAll("a").forEach((navLink) => {
+    navLink.addEventListener("click", highlightActive, false);
+});
+
+function highlightActive(e) {
+    document.querySelector(".active").classList.remove("active");
+    e.target.classList.add("active");
+    console.log(`link clicked: $e.target`);
+}
+
 };
 
 createTopNav();
@@ -91,12 +101,3 @@ function createFooter(){
 
 createFooter();
 
-document.querySelectorAll("a").forEach((navLink) => {
-    navLink.addEventListener("click", highlightActive, false);
-});
-
-function highlightActive(e) {
-    document.querySelector(".active").classList.remove("active");
-    e.target.classList.add("active");
-    console.log(`link clicked: $e.target`);
-}
