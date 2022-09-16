@@ -11,7 +11,7 @@ function createTopNav(){
       <div class="ham_nav_wrapper">
         <img class="ham_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions">
         <nav class="ham_nav_links">
-          <a href="index.php" class="active">Home</a>
+          <a href="index.php">Home</a>
           <a href="services.php">Services</a>
           <a href="about.php">About</a>
           <a href="contact.php">Contact</a>
@@ -20,14 +20,23 @@ function createTopNav(){
     </div>
     <nav class="full_nav">
         <ul class="top_links">
-            <li class="top set1"><a class="active" href="index.php">Home</a></li>
+            <li class="top set1"><a href="index.php">Home</a></li>
             <li class="top set1"><a href="services.php">Services</a></li>
             <li class="logo_container"><img class="top_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions"></li>
             <li class="top set2"><a href="about.php">About</a></li>
             <li class="top set2"><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
-`};
+`
+
+var a = document.querySelectorAll("a");
+for (var i = 0, length = a.length; i < length; i++) {
+  a[i].onclick = function() {
+    var b = document.querySelector("li.active");
+    if (b) b.classList.remove("active");
+    this.parentNode.classList.add('active');
+  };
+} 
 
 createTopNav();
 
@@ -59,12 +68,12 @@ function createFooter(){
       </div>
       <div class="nav_links">
         <ul class="bottom_links_col1">
-            <li class="bottom"><a href="#">Home</a></li>
-            <li class="bottom"><a href="#">Services</a></li>
+            <li class="bottom"><a href="index.php">Home</a></li>
+            <li class="bottom"><a href="services.php">Services</a></li>
         </ul>
         <ul class="bottom_links_col2">
-            <li class="bottom"><a href="#">About</a></li>
-            <li class="bottom"><a href="#">Contact</a></li>
+            <li class="bottom"><a href="about.php">About</a></li>
+            <li class="bottom"><a href="contact.php">Contact</a></li>
         </ul>
       </div>
       <div class="phone">
@@ -88,3 +97,5 @@ function createFooter(){
 };
 
 createFooter();
+
+//FIGURE OUT HOW TO ADD CLASS OF ACTIVE ON CLICK AND REMOVE CLASS OF ACTIVE ON OTHER LINKS//
