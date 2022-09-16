@@ -34,6 +34,7 @@ for(let clickTab of activeLink){
         let activeClass=document.querySelectorAll('li a.active');
         activeClass[0].classList.remove('active')
         clickTab.classList.add('active'); 
+        console.log('clicked link!')
     }  
 }
 
