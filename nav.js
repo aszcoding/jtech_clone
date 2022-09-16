@@ -28,6 +28,10 @@ function createTopNav(){
         </ul>
     </nav>
 `
+};
+
+createTopNav();
+
 document.querySelectorAll("a").forEach((navLink) => {
     navLink.addEventListener("click", highlightActive, false);
 });
@@ -38,9 +42,6 @@ function highlightActive(e) {
     console.log(`link clicked: $e.target`);
 }
 
-};
-
-createTopNav();
 
 
 function createFooter(){
