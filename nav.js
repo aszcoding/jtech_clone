@@ -33,7 +33,7 @@ function createTopNav(){
 createTopNav();
 
 const url = window.location.href;
-const navLinks = $('a');
+const navLinks = document.querySelectorAll('a');
 
 navLinks.filter(function(){
     return this.href == url;
