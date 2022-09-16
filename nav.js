@@ -92,11 +92,11 @@ function createFooter(){
 createFooter();
 
 //SET ACTIVE CLASS
-const navLinks = document.querySelectorAll('li > a')
-navLinks.forEach(link => {
-    link.addEventListener('click', e => {
-        navLinks.classList.add('active')
-        if (e.target !== e.currentTarget) return
-        navLinks.classList.remove('active')
-    });
-});
+const activeLink=document.querySelectorAll('ul li a');
+for(let clickTab of activeLink){  
+    clickTab.onclick=function(){
+        let activeClass=document.querySelectorAll('li a.active');
+        activeClass[0].classList.remove('active')
+        clickTab.classList.add('active'); 
+    }  
+}
