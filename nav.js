@@ -29,18 +29,21 @@ function createTopNav(){
     </nav>
 `
 
-const navLink = document.querySelectorAll("a");
-for (var i = 0, length = navLink.length; i < length; i++) {
-  navLink[i].onclick = function() {
-    const clickedLink = document.querySelector("a.active");
-        if (clickedLink) clickedLink.classList.remove("active");
-        this.classList.add('active');
-     };
+document.querySelectorAll("a").forEach((navLink) => {
+    navLink.addEventListener("click", highlightActive, false);
+});
+
+function highlightActive(e) {
+    document.querySelector(".active").classList.remove("active");
+    e.target.classList.add("active");
+    console.log(`link clicked: $e.target`);
 }
 
 };
 
 createTopNav();
+
+
 
 function createFooter(){
     const footer = document.getElementById('footer');
