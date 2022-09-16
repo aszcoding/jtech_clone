@@ -185,7 +185,7 @@ h1, h2, h3, h4{
 
 /*Full Nav*/
 
-.full_nav{
+#full_nav{
     display: none;
     position: fixed;
     margin: 1rem;
@@ -564,7 +564,7 @@ h3{
     display: none;
 }
 
-.full_nav{
+#full_nav{
     display: block;
 }
 
@@ -647,7 +647,7 @@ h5{
 
 @media screen and (min-width:1200px){
 
-.full_nav{
+#full_nav{
     width: 97.5%;
 }
 }
@@ -658,7 +658,7 @@ h5{
 }
 
 @media screen and (min-width: 1800px) {
-.full_nav{
+#full_nav{
     width: 98.5%;
     
 }

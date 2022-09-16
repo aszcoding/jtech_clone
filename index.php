@@ -36,7 +36,7 @@
           </div>
         </div>
         
-        <nav class="full_nav">
+        <nav id="full_nav">
           <ul class="top_links">
             <li class="top set1"><a class="active" href="index.php">Home</a></li>
             <li class="top set1"><a href="services.php">Services</a></li>
@@ -144,5 +144,6 @@
 
 </main>
 </body>
+<script src="nav.js" async></script>
 <script src="lightbox.js" async></script>
 </html>
