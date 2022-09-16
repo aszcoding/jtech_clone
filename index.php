@@ -17,7 +17,9 @@
 <body class="home">
   <a  name="top"></a>
   <main>
-    <header id="nav_bars"></header>
+    <header id="nav_bars">
+        <?php include("nav.php");?>
+    </header>
   
     <div class="gallery_container">
       <!--CREATE PHP GALLERY-->
@@ -64,6 +66,6 @@
 
 </main>
 </body>
-<script src="nav.js" async></script>
+<!-- <script src="nav.js" async></script> -->
 <script src="lightbox.js" async></script>
 </html>

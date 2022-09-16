@@ -91,13 +91,13 @@ function createFooter(){
 
 createFooter();
 
-const navLink=document.querySelectorAll("a");
-console.log(navLink);
+// const navLink=document.querySelectorAll("a");
+// console.log(navLink);
 
-navLink.forEach(element => {
-    element.addEventListener("click", function(){
-        navLink.forEach(nav=>nav.classList.remove("active"))
+// navLink.forEach(element => {
+//     element.addEventListener("click", function(){
+//         navLink.forEach(nav=>nav.classList.remove("active"))
 
-        this.classList.add("active");
-    })
-});
+//         this.classList.add("active");
+//     })
+// });
