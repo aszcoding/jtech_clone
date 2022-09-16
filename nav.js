@@ -32,15 +32,22 @@ function createTopNav(){
 
 createTopNav();
 
-document.querySelectorAll("a").forEach((navLink) => {
-    navLink.addEventListener("click", highlightActive, false);
-});
+const url = window.location.href;
+const navLinks = $('a');
 
-function highlightActive(e) {
-    document.querySelector(".active").classList.remove("active");
-    e.target.classList.add("active");
-    console.log(`link clicked: $e.target`);
-}
+navLinks.filter(function(){
+    return this.href == url;
+}).addClass('active');
+
+// document.querySelectorAll("a").forEach((navLink) => {
+//     navLink.addEventListener("click", highlightActive, false);
+// });
+
+// function highlightActive(e) {
+//     document.querySelector(".active").classList.remove("active");
+//     e.target.classList.add("active");
+//     console.log(`link clicked: $e.target`);
+// }
 
 
 
