@@ -28,13 +28,13 @@ function createTopNav(){
         </ul>
     </nav>
 `
-const navLink = document.querySelectorAll("a");
-navLink.addEventListener("click", highlightActive, false);
-
-function highlightActive(e) {
-    document.querySelector(".active").classList.remove("active");
-    e.target.classList.add("active");
-    console.log(`link clicked: $e.target`);
+const activeLink=document.querySelectorAll('ul li a');
+for(let clickTab of activeLink){  
+    clickTab.onclick=function(){
+        let activeClass=document.querySelectorAll('li a.active');
+        activeClass[0].classList.remove('active')
+        clickTab.classList.add('active'); 
+    }  
 }
 
 };
