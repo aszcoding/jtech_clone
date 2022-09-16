@@ -92,7 +92,7 @@ function createFooter(){
 createFooter();
 
 //SET ACTIVE CLASS
-const navLinks = document.querySelectorAll('a')
+const navLinks = document.querySelectorAll('ul li a')
 navLinks.forEach(link => {
     link.addEventListener('click', e => {
         navLinks.classList.add('active')
