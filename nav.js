@@ -28,17 +28,14 @@ function createTopNav(){
         </ul>
     </nav>
 `
-const activeLink=document.querySelectorAll('ul li a');
-for(let clickTab of activeLink){  
-    clickTab.onclick=function(){
-        let activeClass=document.querySelectorAll('li a.active');
-        activeClass[0].classList.remove('active')
-        clickTab.classList.add('active'); 
-        console.log('clicked link!')
-    }  
-}
-
-};
+const navLinks = document.querySelectorAll('a')
+navLinks.forEach(link => {
+    link.addEventListener('click', e => {
+        navLinks.classList.add('active')
+        if (e.target !== e.currentTarget) return
+        navLinks.classList.remove('active')
+    })
+});
 
 createTopNav();
 
