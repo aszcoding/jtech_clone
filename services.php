@@ -49,7 +49,7 @@
     <hr>
   </div>
 
-  <footer>
+  <footer id="footer">
     <div class="to_top">
       <button id="back_to_top_btn" onclick="location.href='#top'">
       <div class="arrow_container">

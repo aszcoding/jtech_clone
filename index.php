@@ -60,8 +60,8 @@
   </div>
 </div>
 
-  <footer>
-    <div class="to_top">
+  <footer id="footer">
+    <!-- <div class="to_top">
       <button id="back_to_top_btn" onclick="location.href='#top'">
       <div class="arrow_container">
         <img class="up_arrow" src="assets/img/footer/circle-chevron-top-svgrepo-com.svg" alt="White circle with white chevron that's pointing upward in the center"/>
@@ -110,7 +110,7 @@
     <div class="copyright">
       <p>© 2022 Club Wellness Evolutions </p>
     </div>
-    </div>
+    </div> -->
   
   </footer>
 

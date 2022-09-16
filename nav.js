@@ -1,4 +1,4 @@
-function createNav(){
+function createTopNav(){
     const header = document.getElementById('nav_bars');
     header.innerHTML +=
     `<input type="checkbox" id="toggle" alt="Open hamburger nav"/>
@@ -29,4 +29,62 @@ function createNav(){
     </nav>
 `};
 
-createNav();
+createTopNav();
+
+function createFooter(){
+    const footer = document.getElementById('footer');
+    footer.innerHTML +=
+    `<div class="to_top">
+    <button id="back_to_top_btn" onclick="location.href='#top'">
+    <div class="arrow_container">
+      <img class="up_arrow" src="assets/img/footer/circle-chevron-top-svgrepo-com.svg" alt="White circle with white chevron that's pointing upward in the center"/>
+    </div>
+    <div class="text">
+      <p id="to_top_text">Back to top</p>
+    </div>
+    </button>
+  </div>
+
+  <div class="footer_logo">
+    <img class="bottom_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions">
+  </div>
+
+  <div class="bottom_nav">
+    <div class="contact_info">
+      <div class="address">
+            <p>Address:<br>
+            216 Anhinga Lane<br>
+            Jupiter, FL 33458
+            </p>
+      </div>
+      <div class="nav_links">
+        <ul class="bottom_links_col1">
+            <li class="bottom"><a href="#">Home</a></li>
+            <li class="bottom"><a href="#">Services</a></li>
+        </ul>
+        <ul class="bottom_links_col2">
+            <li class="bottom"><a href="#">About</a></li>
+            <li class="bottom"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="phone">
+        <p>Phone:<br>
+        <span id="phone_number">(561)310-2499</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom_of_footer">
+  <div class="jtech">
+    <a class="jtech_link" href="https://jtech.digital/">Website Design by JTech communications</a>
+  </div>
+
+  <div class="copyright">
+    <p>© 2022 Club Wellness Evolutions </p>
+  </div>
+  </div>
+    `
+};
+
+createFooter();
