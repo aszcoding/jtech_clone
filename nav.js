@@ -1,4 +1,4 @@
-const createNav = () => {
+function createNav(){
     header.innerHTML +=
     `<input type="checkbox" id="toggle" alt="Open hamburger nav"/>
         <label for ="toggle" title="Hamburger Style Navigation Menu" class="hamburger">
@@ -27,3 +27,5 @@ const createNav = () => {
         </ul>
     </nav>
 `};
+
+createNav();
