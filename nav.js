@@ -32,9 +32,9 @@ function createTopNav(){
 const navLink = document.querySelectorAll("a");
 for (var i = 0, length = navLink.length; i < length; i++) {
   navLink[i].onclick = function() {
-    const activeLink = document.querySelector("a.active");
-        if (activeLink) activeLink.classList.remove("active");
-        this.parentNode.classList.add('active');
+    const clickedLink = document.querySelector("a.active");
+        if (clickedLink) clickedLink.classList.remove("active");
+        this.classList.add('active');
      };
 }
 
