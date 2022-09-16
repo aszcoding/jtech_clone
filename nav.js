@@ -11,7 +11,7 @@ function createTopNav(){
       <div class="ham_nav_wrapper">
         <img class="ham_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions">
         <nav class="ham_nav_links">
-          <a class="<php? {{request()->is('index') ? 'active': ''}}?>" href="index.php">Home</a>
+          <a class=<php? {{request()->is('index') ? 'active': ''}}?> href="index.php">Home</a>
           <a href="services.php">Services</a>
           <a href="about.php">About</a>
           <a href="contact.php">Contact</a>
@@ -28,6 +28,9 @@ function createTopNav(){
         </ul>
     </nav>
 `
+};
+
+createTopNav();
 
 document.querySelectorAll("a").forEach((navLink) => {
     navLink.addEventListener("click", highlightActive, false);
@@ -38,10 +41,6 @@ function highlightActive(e) {
     e.target.classList.add("active");
     console.log(`link clicked: $e.target`);
 }
-
-};
-
-createTopNav();
 
 
 
