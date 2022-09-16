@@ -1,4 +1,4 @@
-header=document.getElementsByTagName(header);
+const header = document.getElementsByTagName(header);
 
 function createNav(){
     header.innerHTML +=
