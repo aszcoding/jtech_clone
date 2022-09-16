@@ -36,7 +36,7 @@ for (var i = 0, length = a.length; i < length; i++) {
     if (b) b.classList.remove("active");
     this.parentNode.classList.add('active');
   };
-} 
+}; 
 
 createTopNav();
 
@@ -97,5 +97,3 @@ function createFooter(){
 };
 
 createFooter();
-
-//FIGURE OUT HOW TO ADD CLASS OF ACTIVE ON CLICK AND REMOVE CLASS OF ACTIVE ON OTHER LINKS//
