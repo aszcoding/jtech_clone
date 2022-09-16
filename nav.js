@@ -28,15 +28,6 @@ function createTopNav(){
         </ul>
     </nav>
 `
-const navLinks = document.querySelectorAll('a')
-navLinks.forEach(link => {
-    link.addEventListener('click', e => {
-        navLinks.classList.add('active')
-        if (e.target !== e.currentTarget) return
-        navLinks.classList.remove('active')
-    });
-});
-
 };
 
 createTopNav();
@@ -99,3 +90,13 @@ function createFooter(){
 };
 
 createFooter();
+
+//SET ACTIVE CLASS
+const navLinks = document.querySelectorAll('a')
+navLinks.forEach(link => {
+    link.addEventListener('click', e => {
+        navLinks.classList.add('active')
+        if (e.target !== e.currentTarget) return
+        navLinks.classList.remove('active')
+    });
+});
