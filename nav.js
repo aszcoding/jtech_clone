@@ -1,5 +1,5 @@
 const fullNav = () => {
-    document.getElementById("full_nav").insertAdjacentHTML('afterend', 
+    document.getElementsByTagName("header").insertAdjacentHTML('afterend', 
     `<nav id="full_nav">
         <ul class="top_links">
             <li class="top set1"><a class="active" href="index.php">Home</a></li>
