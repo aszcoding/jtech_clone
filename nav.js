@@ -1,3 +1,5 @@
+header=document.getElementsByTagName(header);
+
 function createNav(){
     header.innerHTML +=
     `<input type="checkbox" id="toggle" alt="Open hamburger nav"/>
