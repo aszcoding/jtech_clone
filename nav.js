@@ -1,5 +1,5 @@
 function createNav(){
-    const header = document.getElementsByTagName(header);
+    const header = document.getElementsById('#nav_bars');
     header.innerHTML +=
     `<input type="checkbox" id="toggle" alt="Open hamburger nav"/>
         <label for ="toggle" title="Hamburger Style Navigation Menu" class="hamburger">

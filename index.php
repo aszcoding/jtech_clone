@@ -17,7 +17,7 @@
 <body class="home">
   <a  name="top"></a>
   <main>
-    <header>
+    <header id="nav_bars">
         <!-- <input type="checkbox" id="toggle" alt="Open hamburger nav"/>
         <label for ="toggle" title="Hamburger Style Navigation Menu" class="hamburger">
           <div class="top_line"> </div>
