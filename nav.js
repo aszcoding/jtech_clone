@@ -29,13 +29,13 @@ function createTopNav(){
     </nav>
 `
 
-var a = document.querySelectorAll("a");
-for (var i = 0, length = a.length; i < length; i++) {
-  a[i].onclick = function() {
-    var b = document.querySelector("li.active");
-    if (b) b.classList.remove("active");
-    this.parentNode.classList.add('active');
-  };
+const navLink = document.querySelectorAll("a");
+for (var i = 0, length = navLink.length; i < length; i++) {
+  navLink[i].onclick = function() {
+    const activeLink = document.querySelector("a.active");
+        if (activeLink) activeLink.classList.remove("active");
+        this.parentNode.classList.add('active');
+     };
 }
 
 };
