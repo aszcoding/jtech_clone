@@ -32,17 +32,6 @@ function createTopNav(){
 
 createTopNav();
 
-document.querySelectorAll("a").forEach((navLink) => {
-    navLink.addEventListener("click", highlightActive, false);
-});
-
-function highlightActive(e) {
-    document.querySelector(".active").classList.remove("active");
-    e.target.classList.add("active");
-    console.log(`link clicked: $e.target`);
-}
-
-
 
 function createFooter(){
     const footer = document.getElementById('footer');
@@ -101,3 +90,13 @@ function createFooter(){
 };
 
 createFooter();
+
+document.querySelectorAll("a").forEach((navLink) => {
+    navLink.addEventListener("click", highlightActive, false);
+});
+
+function highlightActive(e) {
+    document.querySelector(".active").classList.remove("active");
+    e.target.classList.add("active");
+    console.log(`link clicked: $e.target`);
+}
