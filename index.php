@@ -18,7 +18,7 @@
   <a  name="top"></a>
   <main>
     <header>
-        <input type="checkbox" id="toggle" alt="Open hamburger nav"/>
+        <!-- <input type="checkbox" id="toggle" alt="Open hamburger nav"/>
         <label for ="toggle" title="Hamburger Style Navigation Menu" class="hamburger">
           <div class="top_line"> </div>
           <div class="middle_line"></div>
@@ -34,7 +34,7 @@
               <a href="contact.php">Contact</a>
             </nav>
           </div>
-        </div>
+        </div> -->
         
         <!-- <nav id="full_nav">
           <ul class="top_links">
