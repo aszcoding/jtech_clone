@@ -1,10 +1,4 @@
-<?php function createHeader(){ 
-    $directoryURI = $_SERVER['REQUEST_URI'];
-    $path = parse_url($directoryURI, PHP_URL_PATH);
-    $components = explode('/', $path);
-    $active_pg = $components[1];
-    ?>
-
+<?php function createHeader(){ ?>
 <input type="checkbox" id="toggle" alt="Open hamburger nav"/>
         <label for ="toggle" title="Hamburger Style Navigation Menu" class="hamburger">
             <div class="top_line"> </div>
@@ -24,6 +18,12 @@
     </div>
     <nav class="full_nav">
         <ul class="top_links">
+        <?php 
+        $directoryURI = $_SERVER['REQUEST_URI'];
+        $path = parse_url($directoryURI, PHP_URL_PATH);
+        $components = explode('/', $path);
+        $active_pg = $components[1];
+        ?>
             <li class="top set1"><a class="<?php if ($active_pg=='index') {echo 'active';} else {echo '';} ?>" href="index.php">Home</a></li>
             <li class="top set1"><a class="<?php if ($active_pg=='services') {echo 'active';} else {echo '';} ?>" href="services.php">Services</a></li>
             <li class="logo_container"><img class="top_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions"></li>
