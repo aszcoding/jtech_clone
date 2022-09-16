@@ -64,16 +64,6 @@
 
 </main>
 </body>
-<script>
-const activeLink=document.querySelectorAll('ul li a');
-for(let clickTab of activeLink){  
-    clickTab.onclick=function(){
-        let activeClass=document.querySelectorAll('li a.active');
-        activeClass[0].classList.remove('active')
-        clickTab.classList.add('active'); 
-    }  
-}
-</script>
 <script src="nav.js" async></script>
 <script src="lightbox.js" async></script>
 </html>

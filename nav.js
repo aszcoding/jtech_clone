@@ -91,3 +91,12 @@ function createFooter(){
 
 createFooter();
 
+const navLink=document.querySelectorAll('a');
+
+navLink.forEach(element => {
+    element.addEventListener("click", function(){
+        navLink.forEach(nav=>nav.classList.remove('active'))
+
+        this.classList.add('active');
+    })
+})
