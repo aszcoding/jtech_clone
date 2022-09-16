@@ -28,27 +28,18 @@ function createTopNav(){
         </ul>
     </nav>
 `
+const navLink = document.querySelectorAll("a");
+navLink.addEventListener("click", highlightActive, false);
+
+function highlightActive(e) {
+    document.querySelector(".active").classList.remove("active");
+    e.target.classList.add("active");
+    console.log(`link clicked: $e.target`);
+}
+
 };
 
 createTopNav();
-
-const url = window.location.href;
-const navLinks = document.querySelectorAll('a');
-
-navLinks.filter(function(){
-    return this.href == url;
-}).addClass('active');
-
-// document.querySelectorAll("a").forEach((navLink) => {
-//     navLink.addEventListener("click", highlightActive, false);
-// });
-
-// function highlightActive(e) {
-//     document.querySelector(".active").classList.remove("active");
-//     e.target.classList.add("active");
-//     console.log(`link clicked: $e.target`);
-// }
-
 
 
 function createFooter(){
