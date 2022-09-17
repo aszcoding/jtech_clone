@@ -67,6 +67,5 @@
 
 </main>
 </body>
-<!-- <script src="nav.js" async></script> -->
 <script src="lightbox.js" async></script>
 </html>
