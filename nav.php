@@ -32,4 +32,5 @@
             <li class="top set2"><a class="<?php if ($active_pg=="contact") {echo "active";} else {echo "";} ?>" href="contact.php">Contact</a></li>
         </ul>
     </nav>
-<?php } ?>
+<?php }
+echo createHeader(); ?>
