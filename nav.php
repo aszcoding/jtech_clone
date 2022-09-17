@@ -1,6 +1,6 @@
 <?php function createHeader(){ 
         $directoryURI = $_SERVER['REQUEST_URI'];
-        $path = parse_url($directoryURI, 'PHP_URL_PATH');
+        $path = parse_url($directoryURI, PHP_URL_PATH);
         $components = explode('/', $path);
         $active_pg = $components[1];
 ?>
