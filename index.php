@@ -63,7 +63,9 @@
   </div>
 </div>
 
-  <footer id="footer"></footer>
+  <footer id="footer">
+    <?php echo createFooter(); ?>
+  </footer>
 
 </main>
 </body>
