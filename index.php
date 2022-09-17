@@ -18,7 +18,7 @@
   <a  name="top"></a>
   <main>
     <header id="nav_bars">
-      <?php include("nav.php");?>
+      <?php echo createHeader(); ?>
     </header>
   
     <div class="gallery_container">
