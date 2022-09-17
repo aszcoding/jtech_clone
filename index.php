@@ -11,6 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap" rel="stylesheet">
 <?php include_once("config.php");?>
+<?php include("nav.php");?>
 
 </head>
 
@@ -18,7 +19,7 @@
   <a  name="top"></a>
   <main>
     <header id="nav_bars">
-        <?php include("nav.php");?>
+        <?php createHeader();?>
     </header>
   
     <div class="gallery_container">
