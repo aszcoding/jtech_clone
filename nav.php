@@ -25,11 +25,11 @@
     <nav class="full_nav">
         <ul class="top_links">
 
-            <li class="top set1"><a class="<?php if ($active_pg=='index') {echo 'active';} else {echo '';} ?>" href="index.php">Home</a></li>
-            <li class="top set1"><a class="<?php if ($active_pg=='services') {echo 'active';} else {echo '';} ?>" href="services.php">Services</a></li>
+            <li class="top set1"><a class="<?php if ($active_pg=="index") {echo "active";} else {echo "";} ?>" href="index.php">Home</a></li>
+            <li class="top set1"><a class="<?php if ($active_pg=="services") {echo "active";} else {echo "";} ?>" href="services.php">Services</a></li>
             <li class="logo_container"><img class="top_logo" src="assets/img/main/club-wellness-evolutions.svg" alt="Club Wellness Evolutions"></li>
-            <li class="top set2"><a class="<?php if ($active_pg=='about') {echo 'active';} else {echo '';} ?>" href="about.php">About</a></li>
-            <li class="top set2"><a class="<?php if ($active_pg=='contact') {echo 'active';} else {echo '';} ?>" href="contact.php">Contact</a></li>
+            <li class="top set2"><a class="<?php if ($active_pg=="about") {echo 'active';} else {echo "";} ?>" href="about.php">About</a></li>
+            <li class="top set2"><a class="<?php if ($active_pg=="contact") {echo "active";} else {echo "";} ?>" href="contact.php">Contact</a></li>
         </ul>
     </nav>
 <?php } ?>
