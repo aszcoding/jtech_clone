@@ -2,7 +2,7 @@
         $directoryURI = $_SERVER['REQUEST_URI'];
         $path = parse_url($directoryURI, PHP_URL_PATH);
         $components = explode('/', $path);
-        $active_pg = $components[1];
+        $active_pg = basename($_SERVER['PHP_SELF'], ".php");
 ?>
 
 <input type="checkbox" id="toggle" alt="Open hamburger nav"/>
