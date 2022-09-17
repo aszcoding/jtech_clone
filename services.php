@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500;600;700&display=swap" rel="stylesheet">
 <?php include_once("config.php");
       include("main_services_query.php"); 
+      include("nav.php");
 ?>
 
 </head>
@@ -19,7 +20,9 @@
 <body>
   <a  name="top"></a>
   <main>
-    <header id="nav_bars"></header>
+    <header id="nav_bars">
+    <?php echo createHeader(); ?>
+    </header>
   
     <div class="facility_image_container">
       <img class="facility_image" src="content/services-sp/ic_1547766459_1600x462_true.jpg" alt="Massage tables">
