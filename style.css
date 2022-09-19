@@ -255,6 +255,9 @@ a:hover, a:active, .active{
     text-align: center;
 }
 
+.home_subtitle{
+    color: hsl(208, 73%, 31%);;
+}
 
 /*SERVICES*/
 /*Main Image*/

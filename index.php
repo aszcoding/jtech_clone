@@ -29,11 +29,11 @@
 <div class="home_body">
     <div class="home_intro">
       <h1>Club Wellness Evolutions</h1>
-        <h4>Inspiration. Innovation. Integration.</h4>
+        <h4 class="home_subtitle">Inspiration. Innovation. Integration.</h4>
     </div>
 
    <div class="home_intro_text">
-    <h4>Solutions Moving Wellness From Where You Are, To Where You Want To Be.</h4>
+    <h4 class="home_subtitle">Solutions Moving Wellness From Where You Are, To Where You Want To Be.</h4>
     <p>Lifestyle Real Estate is a 134 Billion Dollar industry according to the 2018 Global Wellness Economy Monitor.
         Private Clubs have a unique opportunity and are well positioned to add or expand their programs and facilities
         to offer members a comprehensive wellness lifestyle while becoming a competitive choice for future members.</p>
