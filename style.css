@@ -255,7 +255,7 @@ a:hover, a:active, .active{
     text-align: center;
 }
 
-h1>h4{
+h1>.home_subtitle{
     color: hsl(208, 73%, 31%);
 }
 
