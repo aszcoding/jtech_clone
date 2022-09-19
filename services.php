@@ -40,7 +40,7 @@
   </div>
 
   <div class="consulting_fees">
-    <h4>Consulting Fees</h4>
+    <h4 class="consulting_fees_title">Consulting Fees</h4>
     <p>The Consulting service fees range from an hourly rate for specific work to a contract fee that encompasses the scope of a project. 
       Contact us to discuss how our services can assist with your unique club objectives.</p>
   </div>
